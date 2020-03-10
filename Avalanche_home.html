@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Avalanche</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background-image: url("mountain_wallpaper2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  padding: 30px 75px 17px;
+  background: transparent;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  margin: -17px 0px;
+}
+
+.navbar a {
+  color: white;
+  font-size: larger;
+  padding: 14px 25px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(80, 80, 80, 0.4), rgb(153, 153, 153));
+  border-radius: 2px;
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 75px; 
+  min-height: 1500px;
+}
+
+.leftContainer {
+  flex: 25%;
+  justify-content: flex-end;
+  background-color: rgba(160, 160, 160, 0.425);
+  border-radius: 2px;
+}
+
+.sidebar {
+  margin: 40px 25px;
+  color: white;
+  border-radius: 2px;
+  background-color: rgba(110, 110, 110, 0.692);
+}
+
+.boxheader {
+  background-color: rgba(255, 255, 255, 0.404);
+  color: rgb(255, 255, 255);
+  padding: 5px 7px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.boxcontent {
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.rightContainer {
+  flex: 75%;
+  background-color: rgba(230, 230, 230, 0.7);
+  border-radius: 2px;
+}
+
+.mainbar {
+  margin: 30px 15px;
+  
+  border-radius: 2px;
+}
+
+.mainbaritem {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(85, 85, 85, 0.2);
+  margin: 30px 5px;
+  border-radius: 2px;
+}
+
+.YTVid {
+  border-radius: 2px;
+}
+
+.YTdes {
+  margin: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: url("avalanchelogo (50x50).png");
+  background-position: 0px 100%;
+}
+
+.YTdeslol {
+  margin: 0px 0px;
+  background-repeat: no-repeat;
+  background-image:
+    url("avalanchelogo (50x50).png"),
+    url("lol (50x50).png");
+  background-position:
+    0px 100%,
+    50px 100%;
+}
+
+.YTdescsgo {
+  margin: 0px 0px;
+  background-repeat: no-repeat;
+  background-image:
+    url("avalanchelogo (50x50).png"),
+    url("csgo (50x50).png");
+  background-position:
+    0px 100%,
+    50px 100%;
+}
+
+.YTdesrl {
+  margin: 0px 0px;
+  background-repeat: no-repeat;
+  background-image:
+    url("avalanchelogo (50x50).png"),
+    url("rl (50x50).png");
+  background-position:
+    0px 100%,
+    50px 100%;
+}
+
+.YTheader {
+  background-image:linear-gradient(to bottom, rgb(37, 37, 37), rgba(51, 51, 51, 0.1));
+  padding: 5px 5px;
+  border-radius: 2px;
+}
+
+.YTlink {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.YTtext{
+  padding: 0px 5px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="avalanchefont (380px).png">
+    <div class="navbar" style="font-weight: bold;">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Games</a>
+      <a href="#">Community</a>
+    </div>
+</div>
+
+<div class="mainContainer">
+  
+    <div class="leftContainer">
+      <div class="sidebar">
+        <h1 class="boxheader">Team-Mitglieder online</h1>
+        <p class="boxcontent">Hier entsteht ein java-script um von Discord oder Steam den Status der Kern-Teammitglieder abzurufen. Bis dahin füllt dieser sinnfreie Text diese Stelle aus </p>
+      </div>
+      <div class="sidebar">
+        <h2 class="boxheader">Main Games</h2>
+        <a href="#"><img src="csgo (100x100).png"></a>
+        <a href="#"><img src="rl (100x100).png"></a>
+        <a href="#"><img src="lol (100x100).png"></a>
+      </div>
+      <div class="sidebar">
+        <h4 class="boxheader">Community</h4>
+        <ul>
+          <li>Mitgliederliste</li>
+          <li>Forum?</li>
+          <li>Events/Kalendareinträge</li>
+          <li>Youtube-Kanal</li>
+          <li>Friends/related</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="rightContainer">
+      <h3 style="font-size: 30px; margin-left: 20px;">News</h3>
+      <div class="mainbar">
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=BAfU_nE9_74&feature=emb_title" class="YTlink" target="_blank">CSGO Funny Moments #4: "Da muss ich ein Zelt mitnehmen"</a></div>
+            <p class="YTtext">Unsere Lieblingshobbyidioten haben in dieser Episode einen neuen Endgegner getroffen. Ihr eigenes Sprachvermögen. Auch musikalisch wird wieder einiges dargeboten. Enjoy :D</p>
+          </div>
+          <div>
+          <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/BAfU_nE9_74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>  
+        <div class="mainbaritem">
+          <div class="YTdeslol">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=WbcS4DQXN1A" class="YTlink" target="_blank">Josh's League Highlights 4: "Ich hab Ult!"</a></div>
+            <p class="YTtext">Es ist wieder soweit! Nach längerer Pause sind die League Highlights wieder da. Sie konkurrieren sowohl in Aufwand, Liebe zum Detail aber vorallem in der absoluten Stumpfheit der Protagonisten mit den Vorgängern. </p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/WbcS4DQXN1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdesrl">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=kZKOSOcdWtQ" class="YTlink" target="_blank">Josh's Rocket League Highlights 3: "1kmh????"</a></div>
+            <p class="YTtext">Was soll ich da noch sagen...enjoyed es einfach! Achso und liken nicht vergessen ihr Schnitten...</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/kZKOSOcdWtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=EGFMcZpydZg" class="YTlink" target="_blank">jzy's Funny Moments: "JAJA, lass es dir SCHMECKEN!"</a></div>
+            <p class="YTtext">Vom beliebten Home Assistenten bis hin zu Annen May Erik Kantewitz sind all unsere Lieblingshelden dabei. Achtung erhöhte Konzentration an gehäuftem Schwachsinn. Enjoy :D</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/EGFMcZpydZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=Z4qyQXDoGNo" class="YTlink" target="_blank">Funny CSGO moments: "Ich will nicht STERBEN!"</a></div>
+            <p class="YTtext">Die Avalanche Jungs haben mal wieder das CSGO Matchmaking zum Affengehege gemacht. Enjoy!</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/Z4qyQXDoGNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdes">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=fXFAMqUOScw" class="YTlink" target="_blank">Jasperhino's Funny Moments: "Ich hab die MAUS nicht an der Tastatur!"</a></div>
+            <p class="YTtext">Unsere tapferen Helden haben sich in die Arena der "APEX! - Legenden" verirrt, um dort beim Schabernack Treiben mehrfach 3rd-partied zu werden. Viel Spaß!</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/fXFAMqUOScw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdesrl">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=R4sbhT4vx_k" class="YTlink" target="_blank">Josh's Rocket League Montage: "Where Do We Go"</a></div>
+            <p class="YTtext">Hey guys, this is my first Rocket League Montage. Hope you enjoy!
+              Song: Mazare & RUNN - Where Do We Go [Monstercat Release]
+            </p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/R4sbhT4vx_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=wQUakEIvDE0" class="YTlink" target="_blank">Jasperhino's Funny Moments: "Gösser isses einfach!"</a></div>
+            <p class="YTtext">Unsere tapferen Helden begaben sich erneut auf die Reise, um in Gegenschlag: Globale Offensive der Welt ihre - sagen wir - anderen Qualitäten unter Beweis zustellen.</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/wQUakEIvDE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdesrl">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=DiHM_N2Xt7I" class="YTlink" target="_blank">Josh's Funny Moments: "Ich finde nichts zum WERFEN!"</a></div>
+            <p class="YTtext">Der Mensch ist ein faszinierendes Geschöpf welches zu jeder Form von Geräuschen in der Lage ist. In dieser Episode der RL Highlights steht dies im Vordergrund. Viel Spaß!</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/DiHM_N2Xt7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdeslol">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=ne6qk5aet1M" class="YTlink" target="_blank">Josh's League Highlights: "Und ich werde auch bleiben!"</a></div>
+            <p class="YTtext">Heute erwarten unsere 6 Helden wieder neue Herausfordrungen in der Kluft!. Neben epischen 1v2s und Wutanfällen müssen sie sich auch noch schlecht platziertem Advertisement und körperlichen und dem körperlichen Aufstoßen von Luft entgegenstellen. Also macht euch bereit wenn es wieder heißt:  Mögen die Geboosteten Siegen!</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/ne6qk5aet1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdeslol">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=5gQX1phu25M" class="YTlink" target="_blank">Josh's League Highlights: "Der neue FLECKWEG!"</a></div>
+            <p class="YTtext">Von epischen Momenten sowie Baronsteals und Wombocombos zu geboosteten Plays und Schleichwerbung. Auch diese Episode der League Highlights beinhaltet sie alle. Viel Spaß!</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/5gQX1phu25M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdeslol">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=AiG95-Hu5n8" class="YTlink" target="_blank">Josh's League Highlights: "Willst du nen PLAY sehen?"</a></div>
+            <p class="YTtext">Die erste Episode der League Highlights!
+              Wenn du ein play sehen willst bleib dran.
+            </p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/AiG95-Hu5n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=Q5zFCSULhkM" class="YTlink" target="_blank">Jasperhino's Funny Moments: "Ich gehe OFF!!"</a></div>
+            <p class="YTtext">Keine Sorge, er ist nicht off gegangen, zumindest nicht in diesem Game...
+              Enjoy!
+            </p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/Q5zFCSULhkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=Q5zFCSULhkM" class="YTlink" target="_blank">Jasperhino's CS:GO Funtage: "One"</a></div>
+            <p class="YTtext">Song: Submatik & Phil ft. Holly Drummond - One (Virtual Riot 2017 Remix)</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/PlA9ejJw5jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="mainbaritem">
+          <div class="YTdescsgo">
+            <div class="YTheader"><a href="https://www.youtube.com/watch?v=TR2qnfEQQvw" class="YTlink" target="_blank">Jasperhino's Funny Moments: "BITTE tu es!"</a></div>
+            <p class="YTtext">Mit "BITTE tu es!" meint er dich!! Bewertung und Abo dalassen sonst hagelts Kopfnüsse...</p>
+          </div>
+          <div>
+            <iframe class="YTVid" width="560" height="315" src="https://www.youtube.com/embed/TR2qnfEQQvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+
+    
+</div>
+
+</body>
+</html>

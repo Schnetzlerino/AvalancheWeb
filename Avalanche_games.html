@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avalanche</title>
+<link href="style_games.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+  <img src="images/header/avalanchefont_(380px).png">
+  <div class="navbar" style="font-weight: bold;">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Games</a>
+      <a href="#">Community</a>
+  </div>
+</div>
+
+<div id="wrapper">
+  <div class="rlcontainer" id="rlcon">
+    <div class="hiddencontent" id="hcsgocl"><p>this is csgo content in the rl container</p></div>
+    <div class="hiddencontent" id="hlolcl"><p>this is lol content in the rl container</p></div>
+    <div id="left" class="content">
+      <div class="hiddencontainer3">
+        <input type="image" class="icon" id="lefticon" src="images/rl/rl_(250x250).png"/>
+      </div>
+    </div>
+  </div>
+  <div class="csgocontainer" id="csgocon">
+    <div class="hiddencontent" id="hrlcc"><p>this is rl content in the csgo container</p></div>
+    <div class="hiddencontent" id="hlolcc"><p>this is lol content in the csgo container</p></div>
+    <div id="center" class="content">
+      <div class="hiddencontainer2">
+        <input type="image" class="icon" id="centericon" src="images/csgo/csgo_(250x250).png"/>
+      </div>
+    </div>
+  </div>
+  <div class="lolcontainer" id="lolcon">
+    <div class="hiddencontent" id="hrlcr"><iframe src="https://discordapp.com/widget?id=274291979569987584&theme=dark" width="100%" height="100%" allowtransparency="true" frameborder="0"></iframe>
+      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+        new Crate({
+          server: '274291979569987584',
+          channel: '612479027575521301',
+          shard: 'https://disweb.dashflo.net'
+        })
+      </script>
+    </div>
+    <div class="hiddencontent" id="hcsgocr"><p>this is csgo content in the lol container</p></div>
+    <div id="right" class="content">
+      <div class="hiddencontainer1">
+        <input type="image" class="icon" id="righticon" src="images/lol/lol_(250x250).png"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="onclick_games.js"></script>
+
+</body>
+</html>
